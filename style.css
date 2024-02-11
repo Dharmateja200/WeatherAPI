@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 10px;
+    background-color: #FFD89C;
+}
+.container
+{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.container .Title{
+    font-size: 3rem;
+    padding: 15px 0px;
+    text-align: center;
+}
+.container .input{
+    text-align: center;
+    margin: 10px 0px;
+}
+.container .input #LocationInput{
+    width: 60%;
+    background-color: white;
+    border: 1.5px solid rgba(0,0,0,0.4);
+    outline: none;
+    height: 30px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.container .input #btn{
+    background-color:#A1CCD1;
+    width: 20%;
+    padding: 7px 10px;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    height: 30px;
+    left: -5px;
+    cursor: pointer;
+}
+img{
+    display: block;
+    width: 100px;
+    margin: 5px auto;
+}
+.info{
+    color: #270082;
+}
+ .temp{
+    text-align: center;
+    font-size: 3.4rem;
+}
+.temp #Degrees{
+    font-size: 2rem;
+}
+#weather-desc{
+    font-size: 2rem;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+#location{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500px;
+    padding: 10px;
+}
